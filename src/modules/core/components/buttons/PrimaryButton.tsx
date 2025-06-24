@@ -7,7 +7,7 @@ interface PrimaryButtonProps {
 
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({ children, onClick }) => {
   return (
-    <button onClick={onClick} className="btn btn-primary max-w-md">
+    <button onClick={onClick} className="w-full btn btn-primary max-w-xs">
       {children}
     </button>
   );

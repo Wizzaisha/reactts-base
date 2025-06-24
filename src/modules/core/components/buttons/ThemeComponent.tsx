@@ -20,7 +20,7 @@ const ThemeComponent: React.FC<ThemeComponentProps> = ({ children }) => {
   };
 
   return (
-    <button onClick={handleToggle} className="btn btn-primary max-w-md">
+    <button onClick={handleToggle} className="w-full btn btn-primary max-w-md">
       {children ? children : "Toggle"}
     </button>
   );
